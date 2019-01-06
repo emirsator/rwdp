@@ -34,6 +34,7 @@ php artisan make:migration <Entity_Name>
 php artisan make:entity <Entity_Name>
 ```
 2. Done! :)
+
 You will have migration for DB changes, repository, service, contoller, views, languages, routes, etc...
 All with implemented basic CRUD operations.
 
