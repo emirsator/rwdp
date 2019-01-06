@@ -39,4 +39,5 @@ You will have migration for DB changes, repository, service, contoller, views, l
 All with implemented basic CRUD operations.
 
 
-From developer to developers.
+
+_From developer to developers._
