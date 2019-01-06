@@ -18,7 +18,24 @@ By just forking the repo you will have:
 ## Additional
 RWDP also contains https://github.com/emirsator/Laravel-5-Artisan-Generators which brings you additional artisan command to help you include new business entities even faster.
 
+## Installation
+```
+git clone https://github.com/emirsator/rwdp
+composer update
+npm install
+php artisan migrate
+php artisan db:seed
+```
 
+### Add new entity
+1. Create laravel migration
+```
+php artisan make:migration <Entity_Name>
+php artisan make:entity <Entity_Name>
+```
+2. Done! :)
+You will have migration for DB changes, repository, service, contoller, views, languages, routes, etc...
+All with implemented basic CRUD operations.
 
 
 From developer to developers.
