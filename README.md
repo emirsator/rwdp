@@ -23,6 +23,7 @@ RWDP also contains https://github.com/emirsator/Laravel-5-Artisan-Generators whi
 git clone https://github.com/emirsator/rwdp
 composer update
 npm install
+php artisan key:generate
 php artisan migrate
 php artisan db:seed
 ```
